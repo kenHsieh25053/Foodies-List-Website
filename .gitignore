@@ -1,0 +1,6 @@
+# Ignore env
+env
+# Ignore vue-cli
+frontend
+# Ignore db
+db.sqlite3

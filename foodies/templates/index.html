@@ -1,0 +1,20 @@
+{% load render_bundle from webpack_loader %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  http-equiv="Content-Type" charset="UTF-8">
+    <!--優先使用IE最新版本和Chrome --> 
+    <meta  http-equiv = "X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <!--網頁作者--> 
+    <meta name = "Ken Hsieh" content="Ken, kw1984@livemail.com.tw"/> 
+    <meta name="keywords" content="foodies, restaurant, 餐廳, 餐廳清單">    
+    <meta name="description" content="A foodies list">
+    <title>Foodies</title>
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
+  </head>
+  <body>
+    <div id="app">    
+    </div>
+    {% render_bundle 'app' %}
+  </body>
+</html>
