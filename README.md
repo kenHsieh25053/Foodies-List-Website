@@ -1,6 +1,6 @@
 # Foodies-List-Website
 
-完整實現CRUD功能的網站，讓使用者可以讀取、新增、修改和刪除餐廳資訊。
+## 完整實現CRUD功能的網站，讓使用者可以讀取、新增、修改和刪除餐廳資訊。
 -------------
 ![image](https://github.com/kenHsieh25053/Foodies-List-Website/blob/master/foodies%20indexpage.PNG)
 -------------
@@ -19,8 +19,8 @@
 
 ## 後端API接口
 API                               | 用途          
-----------------------------------|:------------
+----------------------------------|:--------------
 api/restaurants/create/           | 新增文章
 api/restaurants/list/             | 列出所有文章
-api/restaurants/update/<int:pk>/  | 更新文章ByPk值 
-api/restaurants/delete/<int:pk>/  | 刪除文章ByPk值
+api/restaurants/update/<int:pk>/  | 更新文章By Pk值 
+api/restaurants/delete/<int:pk>/  | 刪除文章By Pk值
