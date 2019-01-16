@@ -10,9 +10,10 @@
     <meta name="keywords" content="foodies, restaurant, 餐廳, 餐廳清單">    
     <meta name="description" content="A foodies list">
     <title>Foodies</title>
-    {% comment %} <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/> {% endcomment %}
   </head>
   <body>
+    {% render_bundle 'manifest' 'js' %}
+    {% render_bundle 'vendor' 'js' %}
     <div id="app">    
     </div>
     {% render_bundle 'app' %}

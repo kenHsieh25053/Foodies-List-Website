@@ -4,3 +4,5 @@ env
 frontend
 # Ignore db
 db.sqlite3
+# Ignore webpack-stats.json
+webpack-stats.json

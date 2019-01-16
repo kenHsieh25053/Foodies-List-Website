@@ -1,1 +1,37 @@
-{"status":"done","publicPath":"http://localhost:8080/","chunks":{"app":[{"name":"app.js","publicPath":"http://localhost:8080/app.js","path":"C:\\Users\\KW198\\Documents\\django_crud_app\\foodies\\frontend\\dist\\app.js"},{"name":"0.0eab23ada7b8f5a16748.hot-update.js","publicPath":"http://localhost:8080/0.0eab23ada7b8f5a16748.hot-update.js","path":"C:\\Users\\KW198\\Documents\\django_crud_app\\foodies\\frontend\\dist\\0.0eab23ada7b8f5a16748.hot-update.js"}]}}
+{
+    "status": "done",
+    "publicPath": "/static/",
+    "chunks": {
+        "vendor": [{
+            "name": "static/js/vendor.4a7a647c96e5701fb22d.js",
+            "publicPath": "/static/static/js/vendor.4a7a647c96e5701fb22d.js",
+            "path": "C:\\Users\\KW198\\Documents\\crud_web\\Foodies-List-Website\\frontend\\dist\\static\\js\\vendor.4a7a647c96e5701fb22d.js"
+        }, {
+            "name": "static/js/vendor.4a7a647c96e5701fb22d.js.map",
+            "publicPath": "/static/static/js/vendor.4a7a647c96e5701fb22d.js.map",
+            "path": "C:\\Users\\KW198\\Documents\\crud_web\\Foodies-List-Website\\frontend\\dist\\static\\js\\vendor.4a7a647c96e5701fb22d.js.map"
+        }],
+        "app": [{
+            "name": "static/js/app.a8907978a17aeb29ac21.js",
+            "publicPath": "/static/static/js/app.a8907978a17aeb29ac21.js",
+            "path": "C:\\Users\\KW198\\Documents\\crud_web\\Foodies-List-Website\\frontend\\dist\\static\\js\\app.a8907978a17aeb29ac21.js"
+        }, {
+            "name": "static/css/app.e16ec4fda380383b25035df9b4a4de13.css",
+            "publicPath": "/static/static/css/app.e16ec4fda380383b25035df9b4a4de13.css",
+            "path": "C:\\Users\\KW198\\Documents\\crud_web\\Foodies-List-Website\\frontend\\dist\\static\\css\\app.e16ec4fda380383b25035df9b4a4de13.css"
+        }, {
+            "name": "static/js/app.a8907978a17aeb29ac21.js.map",
+            "publicPath": "/static/static/js/app.a8907978a17aeb29ac21.js.map",
+            "path": "C:\\Users\\KW198\\Documents\\crud_web\\Foodies-List-Website\\frontend\\dist\\static\\js\\app.a8907978a17aeb29ac21.js.map"
+        }],
+        "manifest": [{
+            "name": "static/js/manifest.e5d181955195a5a8fe9e.js",
+            "publicPath": "/static/static/js/manifest.e5d181955195a5a8fe9e.js",
+            "path": "C:\\Users\\KW198\\Documents\\crud_web\\Foodies-List-Website\\frontend\\dist\\static\\js\\manifest.e5d181955195a5a8fe9e.js"
+        }, {
+            "name": "static/js/manifest.e5d181955195a5a8fe9e.js.map",
+            "publicPath": "/static/static/js/manifest.e5d181955195a5a8fe9e.js.map",
+            "path": "C:\\Users\\KW198\\Documents\\crud_web\\Foodies-List-Website\\frontend\\dist\\static\\js\\manifest.e5d181955195a5a8fe9e.js.map"
+        }]
+    }
+}
