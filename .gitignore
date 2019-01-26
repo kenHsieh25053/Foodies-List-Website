@@ -6,3 +6,5 @@ frontend
 db.sqlite3
 # Ignore webpack-stats.json
 webpack-stats.json
+# Ignore .gitignore
+.gitignore

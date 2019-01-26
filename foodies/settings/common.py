@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'restaurants',  # 餐廳APP
     'webpack_loader',  # 整合vue和django套件
     'corsheaders'  # 處理跨域請求套件
+
+    # 'gunicorn',  # 部署用
 ]
 
 MIDDLEWARE = [
@@ -58,7 +60,7 @@ ROOT_URLCONF = 'foodies.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, './templates')],
+        'DIRS': [os.path.join(BASE_DIR, '../static')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -126,11 +128,16 @@ DATETIME_FORMAT = 'Y-m-d H:i:s'
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, '../static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, '../frontend/dist'),
     # os.path.join(BASE_DIR, '../public'),
+)
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 )
 
 WEBPACK_LOADER = {

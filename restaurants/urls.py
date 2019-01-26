@@ -9,6 +9,8 @@ urlpatterns = [
     # 顯示餐廳資料API
     path('restaurants/list/',
          RestaurantsList.as_view(), name="res-list"),
+    path('restaurants/list/<int:pk>/',
+         RestaurantsList.as_view(), name="res-list-single"),
     # 更新餐廳資料API
     path('restaurants/update/<int:pk>/',
          RestaurantsUpdate.as_view(), name="res-update"),
