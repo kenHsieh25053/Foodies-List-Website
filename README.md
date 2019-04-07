@@ -10,8 +10,6 @@
 ### 後端
 + django-rest-framework
 + sqlite
-+ corsheaders 處理跨域請求問題套件
-+ webpack_loader 將django 和 vue 整合在一起
 
 ### 前端
 + vue.js
